@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+}
+
+.phone-container img {
+    height: 500px;
+    width: 400px
+}
+
+.login-container {
+    width: 350px;
+    text-align: center;
+}
+
+.login-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-family: 'Billabong', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    background-color: #0095f6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 10px 0;
+    color: #8e8e8e;
+}
+
+.facebook-login {
+    background-color: #385185;
+}
+
+.forgot-password {
+    color: #385185;
+    font-size: 12px;
+}
+
+.signup-box {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+}
+
+.get-app {
+    margin-top: 20px;
+}
+
+.app-links img {
+    width: 130px;
+    margin: 5px;
+}
