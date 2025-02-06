@@ -1,0 +1,36 @@
+Hello World---------------------------------
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <script>
+    alert( "I'm JavaScript!" );
+  </script>
+
+</body>
+
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <script src = "alert.js"></script>
+
+</body>
+
+</html>
+
+
+Variables----------------------------------
+
+let admin, name;
+
+name = "John";
+admin = name;
+alert(admin);
+
