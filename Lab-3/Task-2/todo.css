@@ -10,7 +10,6 @@ body {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 .input-container {
@@ -31,9 +30,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-button:hover {
-    background: #218838;
-}
+
 ul {
     list-style: none;
     padding: 0;
