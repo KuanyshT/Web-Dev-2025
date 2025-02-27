@@ -1,0 +1,21 @@
+<table class="product-table">
+  <tr *ngFor="let row of chunkedProducts">
+    <td *ngFor="let product of row" class="product-card">
+      <img [src]="product.image" [alt]="product.name">
+      <h3>{{ product.name }}</h3>
+      <p>Цена : {{ product.price }}</p>
+      <div class="wptgimg">
+        <div class="column">
+          <a href="https://wa.me/77074303327?text=Hello%20there!">
+          <img src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg" alt="wplogo">
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://t.me/Aibar4?">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/0*oUqxeGGsgWCWaUPV.jpg" alt="tglogo">
+        </a>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>

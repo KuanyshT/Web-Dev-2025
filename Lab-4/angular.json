@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Lab-4": {
+    "the-doors-webapp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/lab-4",
+            "outputPath": "dist/the-doors-webapp",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Lab-4:build:production"
+              "buildTarget": "the-doors-webapp:build:production"
             },
             "development": {
-              "buildTarget": "Lab-4:build:development"
+              "buildTarget": "the-doors-webapp:build:development"
             }
           },
           "defaultConfiguration": "development"
